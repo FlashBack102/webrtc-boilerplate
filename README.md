@@ -7,11 +7,12 @@ It's designed for a 1:N peer connection setup with data channels and media strea
 3. cd server
 4. npm install or yarn install
 
-client: yarn start
+client: yarn start  
 server: yarn start
 
-Client is running at port 3001. Server is running at port 3000
-client: localhost:3001
+Client is running at port 3001. Server is running at port 3000  
+
+client: localhost:3001  
 server: localhost:3000
 
 Once the connection is established, you can send messages to other peer and media streams.
